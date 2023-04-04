@@ -1,0 +1,15 @@
+.places__title
+{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 900;
+font-size: 4.5rem;
+line-height: 106%;
+flex-basis: 460px;
+
+margin:0;
+margin-right: 40px;
+
+color: #FFFFFF;
+
+}

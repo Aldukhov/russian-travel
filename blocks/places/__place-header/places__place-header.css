@@ -1,0 +1,7 @@
+.places__place-header
+{
+    display: flex;
+
+    margin:0;
+    margin-bottom: 48px;
+}
