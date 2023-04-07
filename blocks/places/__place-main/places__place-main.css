@@ -1,4 +1,11 @@
-.places__place-main
-{
-    display:flex;
+.places__place-main {
+    display: flex;
+}
+
+@media screen and (max-width:320px) {
+
+    .places__place-main {
+        flex-direction: column;
+    }
+
 }

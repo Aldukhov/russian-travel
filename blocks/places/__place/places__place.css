@@ -1,12 +1,10 @@
-.places__place
-{
+.places__place {
     display: block;
-    margin:auto;
+    margin: auto;
     max-width: 984px;
-    margin-bottom: 80px;
+    margin-bottom: calc(47px + 2vw);
 }
 
-.places__place:last-child
-{
-    margin-bottom: 92px;
+.places__place:last-child {
+    margin-bottom: 0;
 }

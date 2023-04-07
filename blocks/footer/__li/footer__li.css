@@ -1,18 +1,23 @@
-.footer__li
-{
-font-weight: 400;
-font-size: 1rem;
-line-height: 112%;
-margin:0 0 0 13px;   
+.footer__li {
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 112%;
+    margin: 0 0 0 13px;
 }
 
-.footer__li:first-child
-{
-    margin:0;
+.footer__li:first-child {
+    margin: 0;
 }
 
-.footer__li:hover
-{
+.footer__li:hover {
     opacity: 0.5;
     cursor: pointer;
+}
+
+
+@media screen and (max-width:320px) {
+    .footer__li {
+        margin: 32px 0 0 0;
+    }
+
 }
