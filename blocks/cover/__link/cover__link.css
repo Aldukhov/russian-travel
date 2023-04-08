@@ -5,4 +5,11 @@
     justify-content: center;
     text-decoration: none;
     height: inherit;
+    background-color: rgba(42, 44, 47, 0.3);
+    aspect-ratio: 16 / 10;
 }
+
+.cover__link:hover {
+    background-color: rgba(42, 44, 47, 0.8);
+    cursor: pointer;
+  }

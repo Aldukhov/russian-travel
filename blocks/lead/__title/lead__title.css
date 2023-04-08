@@ -5,11 +5,16 @@
     font-size: 6rem;
     line-height: 104%;
     max-width: 700px;
-    max-height: 200px;
     margin: 0 auto 32px auto;
     text-align: center;
 }
 
+@media screen and (max-width:700px) {
+    .lead__title {
+        font-size: calc(40px + 0.5vw);
+        margin: 0 auto 16px auto;
+    }
+}
 
 @media screen and (max-width:320px) {
     .lead__title {
@@ -17,3 +22,4 @@
         margin: 0 auto 16px auto;
     }
 }
+

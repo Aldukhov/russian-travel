@@ -1,7 +1,6 @@
 .places__place {
     display: block;
     margin: auto;
-    max-width: 984px;
     margin-bottom: calc(47px + 2vw);
 }
 

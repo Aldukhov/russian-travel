@@ -1,5 +1,7 @@
 .places {
     margin: auto;
+    width: 93.5%;
+    max-width: 984px;
     margin-bottom: calc(72px + 1vw);
 }
 

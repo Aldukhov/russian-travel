@@ -1,32 +1,35 @@
-.places__paragraph
-{
+.places__paragraph {
     display: block;
-    font-family: 'Inter';
-font-style: normal;
-font-weight: 400;
-font-size: 1.125rem;
-line-height: 163%;
-margin:0;
-color: #FFFFFF;
-margin-bottom: 15px;
+    font-weight: 400;
+    font-size: 1.125rem;
+    line-height: 163%;
+    margin: 0;
+    color: #FFFFFF;
+    margin-bottom: 15px;
 
 }
 
 
 
-@media screen and (max-width:768px)
-{
-    .places__paragraph
-    {
+@media screen and (max-width:768px) {
+    .places__paragraph {
         font-size: 16px;
     }
 }
 
-@media screen and (max-width:320px)
-{
-    .places__paragraph
-    {
-        width:95%;
-        margin:auto;
+@media screen and (max-width:700px) {
+    .places__paragraph {
+        width: 95%;
+        margin: auto;
+        text-align: center;
     }
 }
+
+@media screen and (max-width:320px) {
+    .places__paragraph {
+        width: 95%;
+        margin: auto;
+        text-align:start;
+    }
+}
+
