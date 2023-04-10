@@ -7,5 +7,21 @@
     gap: 16px;
     margin: 0 auto calc(72px + 1vw) auto;
     justify-items: center;
-    max-width: 93.5%;
+    max-width: 1184px;
+    width: 95%;
+}
+
+@media screen and (max-width:1024px) {
+    .photo-grid {
+        max-width: 928px;
+    }
+    
+}
+
+@media screen and (max-width:768px) {
+
+    .photo-grid {
+        max-width: 720px;
+        width:100%;
+    }
 }

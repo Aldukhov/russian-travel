@@ -4,6 +4,38 @@
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
-    width: 93.5%;
+    max-width: 1184px;
+    width: 95%;
+}
+
+@media screen and (max-width:1024px) {
+    .header {
+        max-width: 928px;
+        
+    }
     
 }
+
+@media screen and (max-width:768px) {
+
+    .header {
+        max-width: 720px;
+        width:100%;
+    }
+}
+
+@media screen and (max-width:750px) {
+
+    .header {
+        width:97%;
+    }
+}
+
+@media screen and (max-width:320px) {
+
+    .header {
+        max-width: 288px;
+        padding-top: 16px;
+    }
+}
+

@@ -9,17 +9,29 @@
 
 }
 
+.places__paragraph:last-of-type
+{
+    margin:0;
+}
 
+@media screen and (max-width:1023px) {
+    .places__paragraph {
+        margin: auto;
+        text-align: center;
+    }
+}
 
 @media screen and (max-width:768px) {
     .places__paragraph {
         font-size: 16px;
+        margin: 0;
+        text-align: start;
     }
 }
 
-@media screen and (max-width:700px) {
+@media screen and (max-width:750px) {
     .places__paragraph {
-        width: 95%;
+        width: 93.5%;
         margin: auto;
         text-align: center;
     }
@@ -27,9 +39,13 @@
 
 @media screen and (max-width:320px) {
     .places__paragraph {
-        width: 95%;
         margin: auto;
         text-align:start;
     }
+
+    .places__paragraph:last-of-type
+{
+    margin:auto;
+}
 }
 

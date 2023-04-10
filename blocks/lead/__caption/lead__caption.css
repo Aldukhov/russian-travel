@@ -5,4 +5,23 @@
     font-size: 0.625rem;
     letter-spacing: 1.5px;
     line-height: 140%;
+    text-transform: capitalize;
+}
+
+@media screen and (max-width: 768px) {
+
+    .lead__caption {
+        width: 720px;
+        margin: auto;
+    }
+    
+}
+
+@media screen and (max-width: 320px) {
+
+    .lead__caption {
+        width: 288px;
+        margin: auto;
+    }
+    
 }

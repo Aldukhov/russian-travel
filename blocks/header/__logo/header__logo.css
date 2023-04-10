@@ -8,7 +8,6 @@
     .header__logo {
         background-image: url(./../../../images/header-logo__320px.svg);
         width: 144px;
-        height: 52px;
     }
 
 }

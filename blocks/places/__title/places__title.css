@@ -12,7 +12,19 @@
 
 @media screen and (max-width:1024px) {
     .places__title {
-        flex-basis: 440px;
+        flex-basis: 440px; 
+        margin: 0 32px 0 0;
+    }
+}
+
+@media screen and (max-width:1023px) {
+    .places__title {
+        flex-basis: 0;
+        margin-bottom: 32px;
+        margin: auto;
+        width: 90%;
+        text-align: center;
+
     }
 }
 
@@ -21,10 +33,13 @@
         font-size: 42px;
         line-height: 46px;
         flex-basis: 340px;
+        text-align: start;
+        margin: 0 28px 0 0;
+        width: auto;
     }
 }
 
-@media screen and (max-width:700px) {
+@media screen and (max-width:750px) {
     .places__title {
         flex-basis: 0;
         margin-bottom: 32px;

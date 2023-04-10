@@ -5,7 +5,7 @@
     background-position: bottom;
     margin: 0 auto calc(72px + 1vw) auto;
     box-sizing: border-box;
-    width: 93.5%;
+    width: 95%;
 }
 
 @media screen and (max-width:1024px) {

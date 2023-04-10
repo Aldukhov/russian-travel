@@ -1,5 +1,35 @@
 .intro {
-    width: 93.5%;
     margin: 0 auto calc(72px + 1vw) auto;
     max-width: 984px;
+    width: 95%;
+}
+
+@media screen and (max-width:1024px) {
+    .intro {
+        max-width: 928px;
+    }
+    
+}
+
+@media screen and (max-width:768px) {
+
+    .intro {
+        max-width: 720px;
+        width:100%;
+    }
+}
+
+@media screen and (max-width:750px) {
+
+    .intro {
+        
+        width:97%;
+    }
+}
+
+@media screen and (max-width:320px) {
+
+    .intro {
+        max-width: 288px;
+    }
 }
