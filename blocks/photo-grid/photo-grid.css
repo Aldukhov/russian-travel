@@ -8,7 +8,7 @@
     margin: 0 auto calc(72px + 1vw) auto;
     justify-items: center;
     max-width: 1184px;
-    width: 95%;
+    width: 97%;
 }
 
 @media screen and (max-width:1024px) {
@@ -22,6 +22,14 @@
 
     .photo-grid {
         max-width: 720px;
-        width:100%;
+        
+    }
+}
+
+@media screen and (max-width:320px) {
+
+    .photo-grid {
+        max-width: 288px;
+        
     }
 }

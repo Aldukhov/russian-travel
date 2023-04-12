@@ -5,7 +5,7 @@
     line-height: 163%;
     margin: 0;
     color: #FFFFFF;
-    margin-bottom: 15px;
+    margin-bottom: 27px;
 
 }
 
@@ -31,7 +31,7 @@
 
 @media screen and (max-width:750px) {
     .places__paragraph {
-        width: 93.5%;
+        width: 97%;
         margin: auto;
         text-align: center;
     }
@@ -39,8 +39,9 @@
 
 @media screen and (max-width:320px) {
     .places__paragraph {
-        margin: auto;
-        text-align:start;
+        margin: 0 auto 25px auto;
+        text-align: start;
+        max-width: 288px;
     }
 
     .places__paragraph:last-of-type

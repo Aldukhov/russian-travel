@@ -14,9 +14,9 @@
 
 @media screen and (max-width:768px) {
    .places__website {
-      margin:0;
+      margin: 0;
       text-align: start;
-      width:auto;
+      width: auto;
       align-self: flex-end;
    }
 
@@ -25,7 +25,7 @@
 @media screen and (max-width:750px) {
 
    .places__website {
-      margin: auto;
+      margin: 15px auto 0 auto;
       text-align: center;
       width: 90%;
    }

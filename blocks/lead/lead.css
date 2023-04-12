@@ -14,7 +14,6 @@
 
 @media screen and (max-width:768px) {
     .lead {
-        margin: 48px auto calc(72px + 1vw) auto;
         width: 100%;
     }
 
