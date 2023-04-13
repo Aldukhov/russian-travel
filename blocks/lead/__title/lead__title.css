@@ -13,6 +13,7 @@
     .lead__title {
         font-size: calc(40px + 0.5vw);
         margin: 0 auto 16px auto;
+        width:97%;
     }
 }
 

@@ -23,6 +23,7 @@
 
     .places__place-header {
         flex-direction: column;
+        margin-bottom: 32px;
     }
 
 }
