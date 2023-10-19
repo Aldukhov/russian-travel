@@ -1,9 +1,9 @@
-# Проект: Путешествие по России
+# Project: Travelling around Russia
 
-**Краткое описание**
+**Summary**
 
-Одностраничный, адаптивный сайт, который создан с использованием HTML и CSS.
-Реализован по правилам flexbox, grid, используется CSS анимация, медиазапросы, подключены шрифты. Файловая структура организована по файловой структуре Nested БЭМ.
+One-page, adaptive website, which is created using HTML and CSS.
+Implemented according to flexbox, grid rules, CSS animation is used, media queries, fonts are connected. The file structure is organised according to the Nested BEM file structure.
 
 
 **GitHub Pages**
